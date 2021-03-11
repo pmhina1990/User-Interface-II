@@ -1,1 +1,189 @@
 /* Add CSS styling here */
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    }
+
+
+html{
+    
+    border:2px solid black;
+
+ 
+}
+body{
+    background-color:white;
+}
+h1{
+    padding:auto;
+    display:flex;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.backgroundone{
+    padding:0.2% 6% 6% 5%;
+    line-height: 20px;
+    border:1px solid black;
+    background-color:grey;
+}
+nav {
+    display:flex;
+    
+    width:20%;
+    border-radius: 50px;
+    text-decoration: none;
+    text-align: center;
+    padding: 1% 1%;
+
+
+}
+nav .home{
+    display:flex;
+    color:white;
+    background-color: black;
+    border:2px solid black;
+    justify-content: space-between;
+    width:80%;
+    text-decoration: none;
+}
+nav .about{
+    color:black;
+    display:flex;
+    background-color:white;
+    border:2px solid black;
+    justify-content: space-between;
+    width:80%;
+    text-decoration: none;
+}
+nav .contact{
+    color:black;
+    background-color:white;
+    border:2px solid black;
+    justify-content: space-between;
+    text-decoration: none;
+    width:80%;
+}
+nav .projects{
+    color:black;
+    background-color:white;
+    border:2px solid black;
+    justify-content: space-around;
+    text-decoration: none;
+    width:80%;
+}
+#photoone{
+    display:flex;
+    padding: 0%,4%,5%,6%;
+    border:1px solid black;
+    width: 30%;
+    height:auto;
+}
+.infome{
+    display:flex;
+    flex-direction: column;
+    text-align:right;
+    font-family: cursive;
+
+
+}
+#mhina{
+    display:flex;
+
+}
+.projects{
+    display:flex;
+    align-content: space-between;
+    
+}
+.projects div{
+    
+    
+    border:2px solid black;
+    display:flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+
+}
+.projectone{
+    display:flex;
+
+    
+}
+
+.projects{
+    display:flex;
+  flex-wrap:wrap;
+ align-content: space-around;
+
+
+}
+.projectone{
+    padding:5% 5%;
+    display:flex;
+    align-self: center;
+    flex-grow: 5;
+    
+    
+}
+.projecttwo{
+    padding:5% 5%;
+    display:flex;
+align-self: center;
+flex-grow: 5;
+}
+
+    .projectthree{
+        padding:5% 5%;
+        display:flex;
+        align-self:center;
+        flex-grow: 5;
+    }
+        .projectfour{
+            padding:5% 5%;
+            display:flex;
+        align-self: center;
+    flex-grow: 5;}
+            .projectfive{
+                padding:5% 5%;
+                display:flex;
+            align-self: center;
+        flex-grow: 5;}
+            
+                .projectsix{
+                    padding:5% 5%;
+                    display:flex;
+                align-self: center;}
+                    .projectseven{
+                        padding:5% 5%;
+                        display:flex;
+                    align-self: center;}
+
+.backgroundtwo{
+    
+
+    padding:0.2% 6% 6% 5%;
+    line-height: 60px;
+    border:1px solid black;
+    background-color:grey;
+    text-align: center;
+    font-family: cursive;
+}
+#buttonone{
+    line-height: 10%;
+    width: 30%;
+    padding:1% 1% 1% 1%;
+    border:2px solid black;
+    
+}
+#buttontwo{
+    line-height: 10%;
+    width: 30%;
+    padding:3% 4% 4% 3%;
+    border:2px solid black;
+}
+.projectready{
+    align-content: space-around; 
+
+}
