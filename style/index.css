@@ -84,7 +84,7 @@ p{
     margin-top:40px;
 }
 .low{
-    border:2px solid black;
+    
     margin-top:30px;
     
 
@@ -97,7 +97,7 @@ p{
     
 }
 .boxes{
-    border:2px solid black;
+    
     display:flex;
     flex-direction:row;
     justify-content: space-around;
@@ -137,7 +137,7 @@ h3{
 .boxi6{background-color: peru;}
 .boxi7{background-color: navy;}
 
-nav .home{
+.home{
     display:flex;
     color:white;
     background-color: black;
@@ -146,7 +146,7 @@ nav .home{
     width:80%;
     text-decoration: none;
 }
-nav .about{
+.about{
     color:black;
     display:flex;
     background-color:white;
@@ -155,7 +155,7 @@ nav .about{
     width:80%;
     text-decoration: none;
 }
-nav .contact{
+.contact{
     color:black;
     background-color:white;
     border:2px solid black;
@@ -163,7 +163,7 @@ nav .contact{
     text-decoration: none;
     width:80%;
 }
-nav .projects{
+.projects{
     color:black;
     background-color:white;
     border:2px solid black;
@@ -283,5 +283,143 @@ flex-grow: 5;
 }
 .projectready{
     align-content: space-around; 
+
+}
+@media(max-width:800px){
+    .backgroundone{
+        width:40%;
+        display:flex;
+        flex-direction: column;
+        
+        
+    }
+
+       
+
+    
+    .mid{
+        
+        display:flex;
+        flex-direction: column;
+    }
+    h1{
+        width:30px;
+    display:flex;
+ align-items: center;
+ align-items: stretch;
+    }
+    h2{
+        height:2vh;
+        margin-top:20px;
+        display: flex;
+        align-items: stretch;
+    }
+    .links{
+       width:50px;
+        
+    }
+    .coin{
+        
+        width:auto;
+    }
+    .links .home{
+        width:auto;
+        margin-right:10%;
+        
+        
+}
+.links .about{
+    width: 100%;
+    margin-right:10%;
+    padding-right:7px;
+}
+.links .contact{
+    width:150%;
+    margin-right:10%;
+}
+.links .projects{
+    width:150%;
+}
+img{
+    width:44vh;
+    
+    margin-right:20%;
+    height:80vh;
+    
+    
+}
+
+.divone{
+    margin-bottom:50%;
+    
+}
+.divtwo{
+    display: flex;
+    flex-direction: column;
+    width:20vh;
+    height:30vh;
+    justify-content: stretch;
+    margin-bottom:70%;
+    
+    
+}
+#proji{
+    width:auto;
+}
+.low{
+    
+    width:30%;
+}
+.backgroundtwo{
+ width:43.2%;
+}
+#buttontwo{
+    width:auto;
+}
+}
+@media(max-width:500px){
+
+
+    .backgroundone{
+        width:44%;
+        display:flex;
+        flex-direction: column;
+        
+        
+    }
+    .links{
+        width:40%;
+        display:flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+
+    }
+   img{
+   width:25vh;
+   height:50vh;
+   margin-right:30px;
+
+   }
+   .divone{
+    width:auto;
+}
+.backgroundtwo{
+    width:43.2%;
+    height:40vh;
+   }
+   #buttontwo{
+       width:auto;
+       margin-top:8vh;
+   }
+
+
+
+
+
+
+
+
+
 
 }
